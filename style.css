@@ -1,0 +1,278 @@
+/*  auskommentieren  */
+
+body {
+	background-color: #99ddff;
+	height: 100vh;
+	font-family: Dosis;
+	overflow: hidden;
+}
+
+
+
+#sound { 
+	width: 60px; 
+	height: 30px; 
+	position: fixed; 
+	top: 30px; 
+	right: 260px; 
+	z-index: 1000; 
+	background-image: url("img/2000px-Speaker_Icon.png"); 
+	background-size: contain; 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	-webkit-transition: all 250ms ease-in-out; 
+	transition: all 250ms ease-in-out; 
+}
+
+
+#sound.off { 
+
+	background-image: url("img/Mute_Icon.png"); 
+
+}
+
+#speaker {
+	width: 20px;
+	top: 10%;
+	left: 10%;
+}
+
+
+#mouse {
+	position: relative;
+	width: 10%;
+	z-index: 10000000;
+	pointer-events: none;
+}
+
+
+.dollar {
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+
+#counter {
+	font-family: Patrick Hand;
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+#important {
+	position: fixed;
+	margin-left: 44%;
+}
+
+#schwarz {
+	width: 110px;
+	height: auto;
+	margin-left: 72%;
+	margin-top: 13%;
+	position: fixed;
+	bottom: 298px;
+	z-index: 1000;
+}
+
+#springen {
+	width: 80px;
+	height: auto;
+	margin-left: 66%;
+	margin-top: 18%;
+	bottom: 315px;
+	position: fixed;
+}
+
+
+#schaf.hase {
+	width: 400px;
+	top: 43%;
+}
+
+
+#title {
+  margin-left: 22%;
+  margin-top: -5%;
+  position: fixed;
+  font-size: 3rem;
+}
+
+.shop {
+	background-color: white;
+	width: 170px;
+	height: 100vh;
+	margin: -2rem;
+	right: 0;
+	padding: 3%;
+	box-shadow: 1px 4px 11px 4px rgba(0, 0, 0, 0.2), 2px 6px 20px 5px rgba(0, 0, 0, 0.19);
+	position: absolute;
+}
+
+.anzahl {
+	margin-right: 5rem;
+	text-align: right;
+
+}
+
+.shop p {
+	margin-bottom: 0.2rem;
+	font-weight: bold;
+
+}
+
+#betrag {
+	padding-top: 10%;
+}
+
+.artikel {
+	width: 6.5rem;
+	height: 6.5rem;
+	border: 0.15rem solid black;
+	box-shadow: -4px 5px 6px 1px rgba(0, 0, 0, 0.2), inset -4px 5px 20px 1px rgba(0, 0, 0, 0.19);
+}
+
+#angora {
+	
+}
+
+.container {
+	background-color: #ffff4d;
+    width: 125px;
+    height: 125px;
+    padding: 5rem;
+    margin: 2rem;
+    margin-top: -6rem;
+    margin-left: -1%;
+    text-align: center;
+    border-radius: 150px;
+    position: fixed;
+    box-shadow: 0px 2px 32px 18px #ffb74d;
+}
+
+#schaf {
+	position: fixed; 
+	top: 49%; 
+	left: calc(50% - 125px);
+	bottom: 105px;
+	transform: translate(-50%); 
+}
+
+.hidden {
+	display: none;
+}
+
+.wow {
+	display: all;
+	z-index: 10000;
+}
+
+#wiese {
+	position: fixed;
+	width: calc(100vw - 150px);
+	height: 100vh;
+	background-size: cover;
+	left: 0px;
+	top: 0px;
+	background-position: center;
+	z-index: -1;
+}
+
+
+
+.gillette4000 {
+	display: none;
+}
+
+
+.over50 .gillette4000 {
+	display: block;
+}
+
+
+.oneblade {
+	display: none;
+}
+
+.over100 .oneblade {
+	display: block;
+}
+
+.angora {
+	display: none;
+}
+
+
+.over2000 .angora {
+	display: block;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+#wiese {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	bottom: 500px;
+	}
+
+
+#schaf {
+	position: fixed; 
+	top: 35%; 
+	left: calc(50% - 35px);
+	bottom: 105px;
+	transform: translate(-50%); 
+	}
+
+.container {
+    width: 125px;
+    height: 125px;
+    padding: 5rem;
+    margin: 2rem;
+    margin-top: -6rem;
+    margin-left: -5%;
+    text-align: center;
+    border-radius: 150px;
+    position: fixed;
+    box-shadow: 0px 2px 32px 18px #ffb74d;
+}
+
+.shop p {
+	margin-bottom: 0.2rem;
+	font-weight: bold;
+
+}
+
+
+.shop {
+	background-color: white;
+	width: 100%;
+	height: 26%;
+	margin: -2rem;
+	right: 0;
+	padding: 3%;
+	box-shadow: 1px 4px 11px 4px rgba(0, 0, 0, 0.2), 2px 6px 20px 5px rgba(0, 0, 0, 0.19);
+	position: absolute;
+	bottom: 0;
+}
+
+#important {
+	position: fixed;
+	margin-left: 44%;
+	padding-top: 20%;
+}
+
+
+
+h1 {
+    font-size: 2em;
+    margin: 0 0;
+}
+
+
+
+
+
+
+
+	

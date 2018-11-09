@@ -1,4 +1,4 @@
-# Cookie-Clicker
+# Shear the Sheep
 Clicking Game
 
 

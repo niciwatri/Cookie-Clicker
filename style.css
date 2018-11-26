@@ -15,25 +15,25 @@ body {
     z-index: 100000000;
 }
 
-#sound { 
-	width: 60px; 
-	height: 30px; 
-	position: fixed; 
-	top: 30px; 
-	right: 260px; 
-	z-index: 1000; 
-	background-image: url("img/2000px-Speaker_Icon.png"); 
-	background-size: contain; 
-	background-repeat: no-repeat; 
-	background-position: center; 
-	-webkit-transition: all 250ms ease-in-out; 
-	transition: all 250ms ease-in-out; 
+#sound {
+	width: 60px;
+	height: 30px;
+	position: fixed;
+	top: 30px;
+	right: 260px;
+	z-index: 1000;
+	background-image: url("img/2000px-Speaker_Icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
 }
 
 
-#sound.off { 
+#sound.off {
 
-	background-image: url("img/Mute_Icon.png"); 
+	background-image: url("img/Mute_Icon.png");
 
 }
 
@@ -94,6 +94,20 @@ body {
 	top: 43%;
 }
 
+#schafwolleRechts {
+	position: fixed;
+	width: 100px;
+	left: calc(55% - 130px);
+	top: 49%;
+}
+
+#schafwolleLinks {
+	position: fixed;
+	width: 100px;
+	left: calc(39% - 114px);
+	top: 49%;
+}
+
 
 #title {
   margin-left: 22%;
@@ -137,7 +151,7 @@ body {
 }
 
 #angora {
-	
+
 }
 
 .container {
@@ -155,11 +169,11 @@ body {
 }
 
 #schaf {
-	position: fixed; 
-	top: 49%; 
+	position: fixed;
+	top: 49%;
 	left: calc(50% - 125px);
 	bottom: 105px;
-	transform: translate(-50%); 
+	transform: translate(-50%);
 }
 
 .hidden {
@@ -223,11 +237,11 @@ body {
 
 
 #schaf {
-	position: fixed; 
-	top: 35%; 
+	position: fixed;
+	top: 35%;
 	left: calc(50% - 35px);
 	bottom: 105px;
-	transform: translate(-50%); 
+	transform: translate(-50%);
 	}
 
 .container {
@@ -274,11 +288,3 @@ h1 {
     font-size: 2em;
     margin: 0 0;
 }
-
-
-
-
-
-
-
-	
